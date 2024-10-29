@@ -18,7 +18,7 @@
         <ul class="navlist">
             <div class="x-mark"><i class="fa-solid fa-x" style="color: #dadbdd;"></i></div>
             <li><a href="./index.html">Home</a></li>
-            <li><a href="#">About</a></li>
+            <li><a href="#about">About</a></li>
             <li><a href="#">Services</a></li>
             <li><a href="#">Skills</a></li>
             <li><a href="#projects">My Projects</a></li>
@@ -54,7 +54,8 @@
                 <img class="rounded-full w-full h-full" src="./My Photo.jpg" alt="photo..">
             </div>
         </section>
-        <div data-aos="fade-right" data-aos-duration="3000">
+        <!-- About -->
+        <div id="about" data-aos="fade-right" data-aos-duration="3000">
             <h1 class="font-bold text-xl lg:text-3xl py-4 text-[#12F7FF]">About Me</h1>
             <div>
                 <!-- <p class="text-md lg:text-xl">
@@ -75,8 +76,12 @@
 
                 </p> -->
                 <p class="text-md lg:text-xl">
-                    Hi, I'm Nirab Ahmed, a passionate web designer with a keen eye for detail and a love for creating user-friendly, visually appealing websites. With 2+ years of experience in the field, I specialize in blending aesthetics with functionality to deliver websites that not only look great but also provide a seamless user experience. My expertise is in various areas of web design including front-end development, PSD/Figma to HTML, responsive design and UI/UX optimization.
-                    
+                    Hi, I'm Nirab Ahmed, a passionate web designer with a keen eye for detail and a love for creating
+                    user-friendly, visually appealing websites. With 2+ years of experience in the field, I specialize
+                    in blending aesthetics with functionality to deliver websites that not only look great but also
+                    provide a seamless user experience. My expertise is in various areas of web design including
+                    front-end development, PSD/Figma to HTML, responsive design and UI/UX optimization.
+
                 </p>
             </div>
         </div>
@@ -84,15 +89,20 @@
             <div>
                 <h1 class="font-bold text-xl lg:text-3xl py-5 text-[#12F7FF]">My Skills</h1>
                 <!-- <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8"> -->
-                    <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5">
-                        <img class="lg:mb-0 mb-10" src="https://img.icons8.com/?size=100&id=20909&format=png&color=000000" alt="Html">
-                        <img class="lg:mb-0 mb-10" src="https://img.icons8.com/?size=100&id=7gdY5qNXaKC0&format=png&color=000000" alt="Css">
-                        <img class="lg:mb-0 mb-10" src="https://img.icons8.com/?size=100&id=CIAZz2CYc6Kc&format=png&color=000000"
-                            alt="tailwindcss">
-                        <img class="lg:mb-0 mb-10" src="https://img.icons8.com/?size=100&id=PXTY4q2Sq2lG&format=png&color=000000" alt="Js">
-                        <img class="lg:mb-0 mb-10" src="https://img.icons8.com/?size=100&id=asWSSTBrDlTW&format=png&color=000000" alt="React">
-                    </div>
-                   <!--  <img class="lg:mb-0 mb-10" src="https://img.icons8.com/?size=100&id=hsPbhkOH4FMe&format=png&color=000000" alt="node">
+                <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5">
+                    <img class="lg:mb-0 mb-10" src="https://img.icons8.com/?size=100&id=20909&format=png&color=000000"
+                        alt="Html">
+                    <img class="lg:mb-0 mb-10"
+                        src="https://img.icons8.com/?size=100&id=7gdY5qNXaKC0&format=png&color=000000" alt="Css">
+                    <img class="lg:mb-0 mb-10"
+                        src="https://img.icons8.com/?size=100&id=CIAZz2CYc6Kc&format=png&color=000000"
+                        alt="tailwindcss">
+                    <img class="lg:mb-0 mb-10"
+                        src="https://img.icons8.com/?size=100&id=PXTY4q2Sq2lG&format=png&color=000000" alt="Js">
+                    <img class="lg:mb-0 mb-10"
+                        src="https://img.icons8.com/?size=100&id=asWSSTBrDlTW&format=png&color=000000" alt="React">
+                </div>
+                <!--  <img class="lg:mb-0 mb-10" src="https://img.icons8.com/?size=100&id=hsPbhkOH4FMe&format=png&color=000000" alt="node">
                     <img class="lg:mb-0 mb-10 border-2 bg-white"
                         src="https://img.icons8.com/?size=100&id=SDVmtZ6VBGXt&format=png&color=000000" alt="express">
                     <img class="mb-10" src="https://img.icons8.com/?size=100&id=tBBf3P8HL0vR&format=png&color=000000" alt="MongoDB">
@@ -100,74 +110,104 @@
             </div>
         </div>
         <!-- Projects -->
-        <div class="pb-10">
+        <div id="projects" class="pb-10">
             <h1 class="font-bold text-xl lg:text-3xl py-4 text-[#12F7FF]">My Projects</h1>
             <div class="grid gap-4 grid-cols-1 my-5 md:grid-cols-2 lg:grid-cols-5">
                 <div class="card card-compact bg-white text-black  shadow-x">
                     <figure>
-                        <img class="p-3 rounded-t-[20px]" src="./peddyPNG.PNG"
-                            alt="Website Name" />
+                        <img class="p-3 rounded-t-[20px]" src="./peddyPNG.PNG" alt="Website Name" />
                     </figure>
                     <div class="card-body">
                         <h2 class="card-title text-lg">Peddy</h2>
                         <p>Peddy Adoption website.</p>
                         <div class="card-actions w-full">
-                            <a  href="https://b10-a6-peddy.netlify.app/" class="btn bg-black text-white w-full underline" target="_blank">Live Link</a>
+                            <a href="https://b10-a6-peddy.netlify.app/" class="btn bg-black text-white w-full underline"
+                                target="_blank">Live Link</a>
                         </div>
                     </div>
                 </div>
                 <div class="card card-compact bg-white text-black  shadow-x">
                     <figure>
-                        <img class="p-3 rounded-t-[20px]" src="./Rinterio.PNG"
-                            alt="Website Name" />
-                    </figure>
-                    <div class="card-body">
-                        <h2 class="card-title text-lg">Rinterio</h2>
-                        <p>Rinterio Barn house design website.</p>
-                        <div class="card-actions w-full">
-                            <a target="_blank" href="https://nirobahmed0298.github.io/B10A3-rinterio/" class="btn bg-black text-white w-full underline">Live Link</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="card card-compact bg-white text-black  shadow-x">
-                    <figure>
-                        <img class="p-3 rounded-t-[20px]" src="./Shop.PNG"
-                            alt="Website Name" />
+                        <img class="p-3 rounded-t-[20px]" src="./Shop.PNG" alt="Website Name" />
                     </figure>
                     <div class="card-body">
                         <h2 class="card-title text-lg">Favorite.choice</h2>
                         <p>Online Shopping website.</p>
                         <div class="card-actions w-full">
-                            <a target="_blank" href="https://nirobahmed0298.github.io/favorite.choice/" class="btn bg-black text-white w-full underline" target="_blank">Live Link</a>
+                            <a target="_blank" href="https://nirobahmed0298.github.io/favorite.choice/"
+                                class="btn bg-black text-white w-full underline" target="_blank">Live Link</a>
                         </div>
                     </div>
                 </div>
                 <div class="card card-compact bg-white text-black  shadow-x">
                     <figure>
-                        <img class="p-3 rounded-t-[20px]" src="./DonateBDPNG.PNG"
-                            alt="Website Name" />
+                        <img class="p-3 rounded-t-[20px]" src="./DreamCricket.png" alt="Website Name" />
+                    </figure>
+                    <div class="card-body">
+                        <h2 class="card-title text-lg">Dream Cricket</h2>
+                        <p>Dream Cricket-11 website.</p>
+                        <div class="card-actions w-full">
+                            <a href="https://b10-a7-dream-cricket.netlify.app/"
+                                class="btn bg-black text-white w-full underline" target="_blank">Live Link</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card card-compact bg-white text-black  shadow-x">
+                    <figure>
+                        <img class="p-3 rounded-t-[20px]" src="./Chef.png" alt="Website Name" />
+                    </figure>
+                    <div class="card-body">
+                        <h2 class="card-title text-lg">Chef Table</h2>
+                        <p>Chef Table website.</p>
+                        <div class="card-actions w-full">
+                            <a href="https://b9a7cheftable.netlify.app/"
+                                class="btn bg-black text-white w-full underline" target="_blank">Live Link</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card card-compact bg-white text-black  shadow-x">
+                    <figure>
+                        <img class="p-3 rounded-t-[20px]" src="./DonateBDPNG.PNG" alt="Website Name" />
                     </figure>
                     <div class="card-body">
                         <h2 class="card-title text-lg">Donaite BD</h2>
                         <p>BD Flood Donaition website.</p>
                         <div class="card-actions w-full">
-                            <a target="_blank" href="https://nirobahmed0298.github.io/B10A5-Quest/" class="btn bg-black text-white w-full underline">Live Link</a>
+                            <a target="_blank" href="https://nirobahmed0298.github.io/B10A5-Quest/"
+                                class="btn bg-black text-white w-full underline">Live Link</a>
                         </div>
                     </div>
                 </div>
+
                 <div class="card card-compact bg-white text-black  shadow-x">
                     <figure>
-                        <img class="p-3 rounded-t-[20px]" src="./Fitness.PNG"
-                            alt="Website Name" />
+                        <img class="p-3 rounded-t-[20px]" src="./Rinterio.PNG" alt="Website Name" />
+                    </figure>
+                    <div class="card-body">
+                        <h2 class="card-title text-lg">Rinterio</h2>
+                        <p>Rinterio Barn house design website.</p>
+                        <div class="card-actions w-full">
+                            <a target="_blank" href="https://nirobahmed0298.github.io/B10A3-rinterio/"
+                                class="btn bg-black text-white w-full underline">Live Link</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="card card-compact bg-white text-black  shadow-x">
+                    <figure>
+                        <img class="p-3 rounded-t-[20px]" src="./Fitness.PNG" alt="Website Name" />
                     </figure>
                     <div class="card-body">
                         <h2 class="card-title text-lg">Fitness</h2>
                         <p>The Essential Website for Fitness.</p>
                         <div class="card-actions w-full">
-                            <a target="_blank" href="https://nirobahmed0298.github.io/B10A2-versatile_ui_main/" class="btn bg-black text-white w-full underline">Live Link</a>
+                            <a target="_blank" href="https://nirobahmed0298.github.io/B10A2-versatile_ui_main/"
+                                class="btn bg-black text-white w-full underline">Live Link</a>
                         </div>
                     </div>
-                </div>
+                </div> 
             </div>
         </div>
     </main>
@@ -179,15 +219,15 @@
                     and
                     8.00 P.M ET, Monday through Friday.</p>
 
-                    <div class="space-x-2 pt-2">
-                        <a href="https://www.facebook.com/mdnirob.ahmed.52056223" target="_blank"><i
-                                class="fa-brands fa-square-facebook text-3xl"></i></a>
-                        <a href="#" target="_blank"><i class="fa-brands fa-whatsapp text-3xl"></i></a>
-                        <a href="https://www.linkedin.com/in/nirob-ahmed-331a9826a/" target="_blank"><i
-                                class="fa-brands fa-linkedin text-3xl"></i></a>
-                        <a href="https://instagram.com/n_i_r_o_b?igshid=OGQ5ZDc2ODk2ZA==" target="_blank"><i
-                                class="fa-brands fa-instagram text-3xl"></i></a>
-                    </div>
+                <div class="space-x-2 pt-2">
+                    <a href="https://www.facebook.com/mdnirob.ahmed.52056223" target="_blank"><i
+                            class="fa-brands fa-square-facebook text-3xl"></i></a>
+                    <a href="#" target="_blank"><i class="fa-brands fa-whatsapp text-3xl"></i></a>
+                    <a href="https://www.linkedin.com/in/nirob-ahmed-331a9826a/" target="_blank"><i
+                            class="fa-brands fa-linkedin text-3xl"></i></a>
+                    <a href="https://instagram.com/n_i_r_o_b?igshid=OGQ5ZDc2ODk2ZA==" target="_blank"><i
+                            class="fa-brands fa-instagram text-3xl"></i></a>
+                </div>
             </div>
             <div class="footer-form">
                 <h2 class="font-bold text-xl mb-4">Let’s Message me</h2>
@@ -198,7 +238,7 @@
                     <label for="email">
                         <input class="p-4 mb-3 bg-white text-black w-full" type="email" placeholder="Your Email">
                     </label>
-                    <textarea class="p-4 mb-3 bg-white text-black w-full"rows="6" placeholder="Massage"></textarea>
+                    <textarea class="p-4 mb-3 bg-white text-black w-full" rows="6" placeholder="Massage"></textarea>
                     <button class="btn px-12 rounded-sm text-white">Submit</button>
                 </form>
             </div>
