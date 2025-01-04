@@ -11,20 +11,41 @@
 </head>
 
 <body>
-    <header class="w-10/12 mx-auto pt-5">
-        <div class="logo">
-            <h5 class="text-xl">N<span>i</span>R<span>o</span>B <span>.</span></h5>
+    <header class="navbar md:px-20 fixed z-10 bg-black bg-opacity-30 ">
+        <div class="navbar-start">
+            <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h8m-8 6h16" />
+                    </svg>
+                </div>
+                <ul tabindex="0"
+                    class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Skills</a></li>
+                    <li><a href="#projects">My Projects</a></li>
+                </ul>
+            </div>
+            <a href="index.html" class="text-xl logo">N<span>i</span>R<span>o</span>B <span>.</span></a>
         </div>
-        <ul class="navlist">
-            <div class="x-mark"><i class="fa-solid fa-x" style="color: #dadbdd;"></i></div>
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Skills</a></li>
-            <li><a href="#projects">My Projects</a></li>
-        </ul>
-        <div class="menuicon">
-            <i class="fa-solid fa-bars" style="color: #fafafa;"></i>
+        <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#projects">My Projects</a></li>
+            </ul>
+        </div>
+        <div class="navbar-end">
+            <a href="https://docs.google.com/document/d/1osgPpAqr5wBmM3Sor6exulT0Q03UCHdCgGwe8S25o24/edit?tab=t.0"
+                target="_blank"
+                class="btn rounded-none hover:text-white hover:border-[#12F7FF] text-black bg-[#12F7FF]">Download
+                Cv.</a>
         </div>
     </header>
     <main class="w-10/12 mx-auto">
@@ -32,8 +53,7 @@
             <div data-aos="zoom-in-up" class="space-y-2">
                 <h1 class="font-bold text-2xl lg:text-6xl">Hi! I am Nirob Ahmed</h1>
                 <div>
-                    <!-- <h3 class="text-[#12F7FF] lg:text-3xl font-bold">And I am MERN Stack Developer.</h3> -->
-                    <h3 class="text-[#12F7FF] lg:text-3xl font-bold">And I am Web Designer.</h3>
+                    <h3 class="text-[#12F7FF] lg:text-3xl font-bold">And I am MERN Stack Developer.</h3>
                 </div>
                 <h5 class="font-bold text-lg">Email:</h5>
                 <a href="#" class="text-lg">nirobahmed0298@gmail.com</a>
@@ -58,7 +78,7 @@
         <div id="about" data-aos="fade-right" data-aos-duration="3000">
             <h1 class="font-bold text-xl lg:text-3xl py-4 text-[#12F7FF]">About Me</h1>
             <div>
-                <!-- <p class="text-md lg:text-xl">
+                <p class="text-[14px] lg:text-[18px]">
                     I am a passionate MERN stack developer with experience in building full-stack web
                     applications using MongoDB, Express.js, React, and Node.js. I thrive on creating scalable,
                     efficient, and user-friendly solutions, always aiming for clean, maintainable code. My
@@ -74,45 +94,90 @@
                     believe they are key to successful project outcomes. I’m always eager to take on new
                     challenges and contribute to innovative projects.
 
-                </p> -->
-                <p class="text-md lg:text-xl">
+                </p>
+                <!-- <p class="text-md lg:text-xl">
                     Hi, I'm Nirab Ahmed, a passionate web designer with a keen eye for detail and a love for creating
                     user-friendly, visually appealing websites. With 2+ years of experience in the field, I specialize
                     in blending aesthetics with functionality to deliver websites that not only look great but also
                     provide a seamless user experience. My expertise is in various areas of web design including
                     front-end development, PSD/Figma to HTML, responsive design and UI/UX optimization.
 
-                </p>
+                </p> -->
             </div>
         </div>
         <div data-aos="fade-left" data-aos-duration="3000" class="mt-6">
             <div>
                 <h1 class="font-bold text-xl lg:text-3xl py-5 text-[#12F7FF]">My Skills</h1>
-                <!-- <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8"> -->
-                <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5">
-                    <img class="lg:mb-0 mb-10" src="https://img.icons8.com/?size=100&id=20909&format=png&color=000000"
-                        alt="Html">
-                    <img class="lg:mb-0 mb-10"
-                        src="https://img.icons8.com/?size=100&id=7gdY5qNXaKC0&format=png&color=000000" alt="Css">
-                    <img class="lg:mb-0 mb-10"
-                        src="https://img.icons8.com/?size=100&id=CIAZz2CYc6Kc&format=png&color=000000"
-                        alt="tailwindcss">
-                    <img class="lg:mb-0 mb-10"
-                        src="https://img.icons8.com/?size=100&id=PXTY4q2Sq2lG&format=png&color=000000" alt="Js">
-                    <img class="lg:mb-0 mb-10"
-                        src="https://img.icons8.com/?size=100&id=asWSSTBrDlTW&format=png&color=000000" alt="React">
+                <div class="grid gap-3 grid-cols-2 md:grid-cols-4 lg:grid-cols-9 mb-8">
+                    <div class="text-center w-20 h-20">
+                        <img class="w-full h-full hover:scale-125 transition-all duration-500 cursor-pointer"
+                            src="https://img.icons8.com/?size=100&id=20909&format=png&color=000000" alt="">
+                        <h1 class="font-bold text-sm">HTML</h1>
+                    </div>
+                    <div class="text-center w-20 h-20">
+                        <img class=" h-full w-full hover:scale-125 transition-all duration-500 cursor-pointer"
+                            src="https://img.icons8.com/?size=100&id=7gdY5qNXaKC0&format=png&color=000000" alt="">
+                        <h1 class="font-bold text-sm">CSS</h1>
+                    </div>
+                    <div class="text-center w-20 h-20">
+                        <img class=" h-full w-full hover:scale-125 transition-all duration-500 cursor-pointer"
+                            src="https://img.icons8.com/?size=100&id=4PiNHtUJVbLs&format=png&color=000000" alt="">
+                        <h1 class="font-bold text-sm">Tailwind CSS</h1>
+                    </div>
+                    <div class="text-center w-20 h-20">
+                        <img class=" h-full w-full hover:scale-125 transition-all duration-500 cursor-pointer"
+                            src="
+                            https://img.icons8.com/?size=100&id=PXTY4q2Sq2lG&format=png&color=000000                            " alt="">
+                        <h1 class="font-bold text-sm">JavaScript</h1>
+                    </div>
+                    <div class="text-center w-20 h-20">
+                        <img class="w-full h-full hover:scale-125 transition-all duration-500 cursor-pointer" src="
+                            https://img.icons8.com/?size=100&id=123603&format=png&color=000000                          
+                            ">
+                        <h1 class="font-bold text-sm">React.js</h1>
+                    </div>
+                    <div class="text-center w-20 h-20">
+                        <img class=" h-full w-full hover:scale-125 transition-all duration-500 cursor-pointer"
+                            src="
+                        https://img.icons8.com/?size=100&id=hsPbhkOH4FMe&format=png&color=000000                            ">
+                        <h1 class="font-bold text-sm">Node.js</h1>
+                    </div>
+                    <div class="text-center w-20 h-20 bg-white rounded-lg">
+                        <img class="w-full h-full hover:scale-125 transition-all duration-500 cursor-pointer" src="
+                        https://img.icons8.com/?size=100&id=PZQVBAxaueDJ&format=png&color=000000" />
+                        <h1 class="font-bold text-sm text-white">Express.js</h1>
+                    </div>
+                    <div class="text-center w-20 h-20 ">
+                        <img class="w-full h-full hover:scale-125 transition-all duration-500 cursor-pointer" src="
+                        https://img.icons8.com/?size=100&id=tBBf3P8HL0vR&format=png&color=000000" />
+                        <h1 class="font-bold text-sm">MongoDB</h1>
+                    </div>
+                    <div class="text-center w-20 h-20 ">
+                        <img class="w-full h-full hover:scale-125 transition-all duration-500 cursor-pointer" src="
+                        https://img.icons8.com/?size=100&id=62452&format=png&color=000000" />
+                        <h1 class="font-bold text-sm">Firebase</h1>
+                    </div>
                 </div>
-                <!--  <img class="lg:mb-0 mb-10" src="https://img.icons8.com/?size=100&id=hsPbhkOH4FMe&format=png&color=000000" alt="node">
-                    <img class="lg:mb-0 mb-10 border-2 bg-white"
-                        src="https://img.icons8.com/?size=100&id=SDVmtZ6VBGXt&format=png&color=000000" alt="express">
-                    <img class="mb-10" src="https://img.icons8.com/?size=100&id=tBBf3P8HL0vR&format=png&color=000000" alt="MongoDB">
-                </div>-->
+
             </div>
         </div>
         <!-- Projects -->
-        <div id="projects" class="pb-10">
+        <div id=" projects" class="pb-10">
             <h1 class="font-bold text-xl lg:text-3xl py-4 text-[#12F7FF]">My Projects</h1>
             <div class="grid gap-4 grid-cols-1 my-5 md:grid-cols-2 lg:grid-cols-5">
+                <div class="card card-compact bg-white text-black  shadow-x">
+                    <figure>
+                        <img class="p-3 rounded-t-[20px]" src="./ChillGamer.JPG" alt="Website Name" />
+                    </figure>
+                    <div class="card-body">
+                        <h2 class="card-title text-lg">Chill Gamer.</h2>
+                        <p>Gaming Review website.</p>
+                        <div class="card-actions w-full">
+                            <a href="./ViewDetails/ChillGamerDetails.html"
+                                class="btn bg-black text-white w-full hover:underline">View Details</a>
+                        </div>
+                    </div>
+                </div>
                 <div class="card card-compact bg-white text-black  shadow-x">
                     <figure>
                         <img class="p-3 rounded-t-[20px]" src="./peddyPNG.PNG" alt="Website Name" />
@@ -121,8 +186,8 @@
                         <h2 class="card-title text-lg">Peddy</h2>
                         <p>Peddy Adoption website.</p>
                         <div class="card-actions w-full">
-                            <a href="https://b10-a6-peddy.netlify.app/" class="btn bg-black text-white w-full underline"
-                                target="_blank">Live Link</a>
+                            <a href="./ViewDetails/PeddyDetail.html"
+                                class="btn bg-black text-white w-full hover:underline">View Details</a>
                         </div>
                     </div>
                 </div>
@@ -134,8 +199,8 @@
                         <h2 class="card-title text-lg">Favorite.choice</h2>
                         <p>Online Shopping website.</p>
                         <div class="card-actions w-full">
-                            <a target="_blank" href="https://nirobahmed0298.github.io/favorite.choice/"
-                                class="btn bg-black text-white w-full underline" target="_blank">Live Link</a>
+                            <a href="./ViewDetails/FavoriteChoice.html"
+                                class="btn bg-black text-white w-full hover:underline">View Details</a>
                         </div>
                     </div>
                 </div>
@@ -147,8 +212,8 @@
                         <h2 class="card-title text-lg">Dream Cricket</h2>
                         <p>Dream Cricket-11 website.</p>
                         <div class="card-actions w-full">
-                            <a href="https://b10-a7-dream-cricket.netlify.app/"
-                                class="btn bg-black text-white w-full underline" target="_blank">Live Link</a>
+                            <a href="./ViewDetails/DreamCricketDetails.html"
+                                class="btn bg-black text-white w-full hover:underline">View Details</a>
                         </div>
                     </div>
                 </div>
@@ -160,8 +225,8 @@
                         <h2 class="card-title text-lg">Chef Table</h2>
                         <p>Chef Table website.</p>
                         <div class="card-actions w-full">
-                            <a href="https://b9a7cheftable.netlify.app/"
-                                class="btn bg-black text-white w-full underline" target="_blank">Live Link</a>
+                            <a href="./ViewDetails/ChefTableDetail.html" target="_blank"
+                                class="btn bg-black text-white w-full hover:underline">View Details</a>
                         </div>
                     </div>
                 </div>
@@ -174,8 +239,8 @@
                         <h2 class="card-title text-lg">Donaite BD</h2>
                         <p>BD Flood Donaition website.</p>
                         <div class="card-actions w-full">
-                            <a target="_blank" href="https://nirobahmed0298.github.io/B10A5-Quest/"
-                                class="btn bg-black text-white w-full underline">Live Link</a>
+                            <a href="./ViewDetails/DonationBDDetails.html"
+                                class="btn bg-black text-white w-full hover:underline">View Details</a>
                         </div>
                     </div>
                 </div>
@@ -188,8 +253,8 @@
                         <h2 class="card-title text-lg">Rinterio</h2>
                         <p>Rinterio Barn house design website.</p>
                         <div class="card-actions w-full">
-                            <a target="_blank" href="https://nirobahmed0298.github.io/B10A3-rinterio/"
-                                class="btn bg-black text-white w-full underline">Live Link</a>
+                            <a href="./ViewDetails/RinterioDetails.html"
+                                class="btn bg-black text-white w-full hover:underline">View Details</a>
                         </div>
                     </div>
                 </div>
@@ -203,11 +268,11 @@
                         <h2 class="card-title text-lg">Fitness</h2>
                         <p>The Essential Website for Fitness.</p>
                         <div class="card-actions w-full">
-                            <a target="_blank" href="https://nirobahmed0298.github.io/B10A2-versatile_ui_main/"
-                                class="btn bg-black text-white w-full underline">Live Link</a>
+                            <a href="./ViewDetails/fi" class="btn bg-black text-white w-full hover:underline">View
+                                Details</a>
                         </div>
                     </div>
-                </div> 
+                </div>
             </div>
         </div>
     </main>
